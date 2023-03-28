@@ -1,0 +1,218 @@
+.contacto{
+
+    background: #EAF2FD;
+    color: #464646;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.formulario{
+
+    margin-left: 1rem;
+}
+
+.formulario-cuerpo{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario-texto-subtitulo{
+
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.formulario-texto-pregunta{
+
+    font-size: 16px;
+    
+}
+.formulario-texto-informacion{
+
+    font-size: 16px;
+    
+}
+
+.formulario-cuerpo-nombre{
+
+    background: #FFFFFF;
+    margin-top: 2rem;
+    height: 1.75rem;
+    
+}
+
+
+.formulario-cuerpo-nombre p{
+
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#nombre{
+    margin-bottom: 2rem;
+    border-style: none;
+    outline: none;
+    height: 1.75rem;
+}
+
+#nombre:focus{
+
+    border-bottom: #2A7AE4 solid 2px;
+}
+
+.formulario-cuerpo-email{
+
+    background: #FFFFFF;
+    height: 1.75rem;
+    
+}
+
+.formulario-cuerpo-email p{
+
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    
+}
+
+
+#email{
+    margin-bottom: 2rem;
+    border-style: none;
+    outline: none;
+    height: 1.75rem;
+}
+
+#email:focus{
+
+    border-bottom: #2A7AE4 solid 2px;
+}
+
+#asunto{
+    margin-bottom: 2rem;
+    border-style: none;
+    outline: none;
+    height: 3.5rem;
+}
+
+#asunto:focus{
+
+    border-bottom: #2A7AE4 solid 2px;
+}
+
+
+#mensaje{
+    
+    border-style: none;
+    outline: none;
+    height: 8.313rem;
+    margin-bottom: 2rem;
+    resize: none;
+
+}
+
+#mensaje:focus{
+
+    border-bottom: #2A7AE4 solid 2px;
+}
+
+
+.botonEnviar{
+
+    padding:16px;
+    width: 9rem;
+    height: 3.188rem;
+    background: #2A7AE4;
+    color: #EAF2FD;
+    border-color: #EAF2FD;
+}
+
+.botonEnviar:hover{
+
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .imagen{
+
+        display: none;
+    }
+
+    .contacto{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .formulario-texto-subtitulo{
+
+        font-size: 22px;
+    }
+
+    .formulario-texto-pregunta{
+
+        font-size: 16px;
+    }
+
+    .formulario-texto-informacion{
+
+        font-size: 16px;
+    }
+
+    .formulario-cuerpo-nombre{
+
+        width: 312px;
+        margin: 0 1rem;
+        margin-top: 2rem;
+        font-size: 12px;
+    }
+
+    #nombre{
+
+        width: 307.7px;
+        margin: 0 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .formulario-cuerpo-email{
+
+        width: 312px;
+        margin: 0 1rem;
+        font-size: 12px;
+        
+    }
+
+    #email{
+
+        width: 307.7px;
+        margin: 0 1rem;
+        margin-bottom: 2rem;
+    }
+
+    #asunto{
+
+        width: 307.7px;
+        margin: 0 1rem;
+        margin-bottom: 2rem; 
+        font-size: 12px;
+    }
+
+    #mensaje{
+
+        width: 307.7px;
+        margin: 0 1rem;
+        margin-bottom: 2rem; 
+        font-size: 12px;
+    }
+
+    .botonEnviar{
+
+        margin-left: 1rem;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,182 @@
+.experienciaLaboral{
+    background: #E5E5E5;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    color: #464646 ;
+}
+
+.experienciaLaboral-subtitulo{
+
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experienciaLaboral-contenido{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.experienciaLaboral-contenido-img{
+
+    width: 44rem;
+    
+    height: 330px;
+    border-radius: 20px; 
+    transition: all 1s;
+    border: solid 2px gray;
+    background-image: url('/Imagenes/Encriptador\ de\ textos3.PNG');
+    background-size:contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.experienciaLaboral-contenido-img2{
+
+    width: 44rem;
+    
+    height: 330px;
+    border-radius: 20px; 
+    transition: all 1s;
+    border: solid 2px gray;
+    background-image: url('/Imagenes/Calculadora\ y\ cronómetro5.PNG');
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+
+.experienciaLaboral-contenido-informacion{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.experienciaLaboral-contenido-subtitulo{
+
+    margin-bottom: 0.5rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.experienciaLaboral-contenido-texto{
+
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+}
+
+.experienciaLaboral-contenido-acceso{
+
+    display: flex;
+    gap: 0.625rem;
+    font-size: 16px;
+
+}
+
+
+.experienciaLaboral-contenido-enlace{
+
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.experienciaLaboral-contenido-enlace2{
+
+    color:#E5E5E5;
+    text-decoration: none;
+}
+
+
+.experienciaLaboral-contenido-accesoDirectoRepositorio{
+
+    padding: 16px;
+    color: #2A7AE4;
+    border: solid 2px;
+    border-color: #2A7AE4;
+    transition: 1s;
+}
+
+.experienciaLaboral-contenido-accesoDirectoRepositorio:hover{
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.experienciaLaboral-contenido-accesoDirectoDemo{
+
+    padding: 16px;
+    background: #2A7AE4;
+    border: solid 2px;
+    border-color: #5f9ff1 ;
+    transition: 1s;
+    
+}
+
+.experienciaLaboral-contenido-accesoDirectoDemo:hover{
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+
+    .experienciaLaboral-subtitulo{
+
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .experienciaLaboral-contenido{
+
+        flex-direction: column;
+    }
+
+    .experienciaLaboral-contenido-img{
+
+        width: 17rem;
+        height: 9rem;
+    }
+
+    .experienciaLaboral-reponsive{
+
+        
+        flex-direction: column-reverse;
+    }
+
+    .experienciaLaboral-contenido-img2{
+
+        width: 17rem;
+        height: 9rem;
+    }
+
+    .experienciaLaboral-contenido-subtitulo{
+
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .experienciaLaboral-contenido-texto{
+
+        font-size: 14px;
+        
+    }
+
+    .experienciaLaboral-contenido-enlace{
+
+        font-size: 14px;
+    }
+
+    .experienciaLaboral-contenido-enlace2{
+
+        font-size: 14px;
+    }
+}
+
+
+
