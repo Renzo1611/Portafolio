@@ -44,15 +44,12 @@
 
 @media screen and (max-width: 560px) {
 
-    .sobreMi{
-
-        
-    }
+    
 
     .sobreMi-contenido{
 
         width: 360px;
-        margin-left: 1rem; 
+        margin: 0 2rem;
     }
     
     .sobreMi-contenido-titulo{

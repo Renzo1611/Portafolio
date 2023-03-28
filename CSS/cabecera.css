@@ -61,8 +61,8 @@ justify-content: space-between;
 
     body {
         font-size: 12px;
-        width: 23rem;
-        min-width: 360px;
+        
+        min-width: 160px;
         max-width: 500px;
     }
 
