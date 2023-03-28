@@ -57,7 +57,7 @@ justify-content: space-between;
     margin-right: 2rem;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 560px) {
 
     body {
         font-size: 12px;

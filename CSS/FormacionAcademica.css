@@ -62,7 +62,7 @@
     font-size: 16px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 560px) {
 
     .formacionAcademica-subtitulo{
         
