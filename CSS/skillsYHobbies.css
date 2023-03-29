@@ -189,3 +189,63 @@
 
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .skills-subtitulo{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .skills{
+
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+
+    .skill-contenido-nombre{
+        font-size: 16px;
+    }
+    
+    .skill{
+        height: auto;
+        background: #FFFFFF;
+        width: 7.375rem;
+        height: 7.25rem;
+        flex-basis: 40%;   
+    }
+
+    .hobbies-subtitulo{
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .hobbies{
+
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        flex-wrap: wrap;
+        width: 100%;
+         
+    }
+
+    .hobbie-contenido-nombre{
+        font-size: 16px;
+    }
+    
+    .hobbie{
+        height: auto;
+        background: #FFFFFF;
+        width: 7.375rem;
+        height: 7.25rem;
+        flex-basis: 40%;
+        
+          
+    }
+ 
+}
+

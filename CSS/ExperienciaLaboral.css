@@ -124,7 +124,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 767px) {
 
     .experienciaLaboral-subtitulo{
 
@@ -178,5 +178,69 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .experienciaLaboral-subtitulo{
+
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .experienciaLaboral-contenido{
+
+        flex-direction: column;
+        
+    }
+
+    .experienciaLaboral-contenido-img{
+
+        width: 46.2rem;
+        height: 22rem;
+        margin: 0 2rem;
+    }
+
+    .experienciaLaboral-reponsive{
+
+        
+        flex-direction: column-reverse;
+    }
+
+    .experienciaLaboral-contenido-img2{
+
+        width: 46.2rem;
+        height: 22rem;
+    }
+
+    .experienciaLaboral-contenido-subtitulo{
+
+        font-size: 16px;
+        font-weight: bold;
+        
+    }
+
+    .experienciaLaboral-contenido-texto{
+
+        font-size: 14px;
+        
+    }
+
+    .experienciaLaboral-contenido-enlace{
+
+        font-size: 14px;
+    }
+
+    .experienciaLaboral-contenido-enlace2{
+
+        font-size: 14px;
+    }
+
+    .experienciaLaboral-contenido-informacion{
+
+        display: flex;
+        margin-right: auto;
+        margin-left: 2rem;
+    }
+ 
+}
 
 

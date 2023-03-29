@@ -137,7 +137,7 @@
 }
 
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 767px) {
 
     .imagen{
 
@@ -215,4 +215,89 @@
         margin-left: 1rem;
         font-size: 14px;
     }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .imagen{
+
+        display: none;
+    }
+
+    .contacto{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .formulario-texto-subtitulo{
+
+        font-size: 22px;
+        margin-left: -2rem;
+    }
+
+    .formulario-texto-pregunta{
+
+        font-size: 16px;
+        margin-left: -2rem;
+    }
+
+    .formulario-texto-informacion{
+
+        font-size: 16px;
+        margin-left: -2rem;
+    }
+
+    .formulario-cuerpo-nombre{
+
+        width: 45.3rem;
+        margin-top: 2rem;
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+
+    #nombre{
+
+        width: 45rem;
+        margin-bottom: 2rem;
+        margin-left: -2rem;
+    }
+
+    .formulario-cuerpo-email{
+
+        width: 45.3rem;
+        font-size: 12px;
+        margin-left: -2rem;
+        
+    }
+
+    #email{
+
+        width: 45rem;
+        margin-bottom: 2rem;
+        margin-left: -2rem;
+    }
+
+    #asunto{
+
+        width: 45rem;
+        margin-bottom: 2rem; 
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+
+    #mensaje{
+
+        width: 45rem;
+        margin-bottom: 2rem; 
+        font-size: 12px;
+        margin-left: -2rem;
+    }
+
+    .botonEnviar{
+
+        
+        font-size: 14px;
+        margin-left: -2rem;
+    }
+ 
 }

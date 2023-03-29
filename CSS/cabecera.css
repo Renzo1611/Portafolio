@@ -57,13 +57,13 @@ justify-content: space-between;
     margin-right: 2rem;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 767px) {
 
     body {
         font-size: 12px;
         
         min-width: 160px;
-        max-width: 500px;
+        max-width: 767px;
     }
 
     .cabecera{
@@ -100,5 +100,34 @@ justify-content: space-between;
 
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+
+    body {    
+        min-width: 768px;
+        max-width: 991px;
+    }
+
+    .cabecera{
+
+        font-size: 16px;
+        font-weight: bold;
+        
+    }
+
+    .desaparecer{
+        display: none;
+    }
+
+    .logo{
+
+        margin-left: -1.5rem; 
+    }
+
+    .menu-lista{
+
+        margin-right: -1.5rem;
+    }
+ 
+}
 
 

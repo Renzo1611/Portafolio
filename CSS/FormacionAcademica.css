@@ -94,3 +94,37 @@
         font-size: 14px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .formacionAcademica-subtitulo{
+        
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        
+    }
+
+    .formacionAcademica-alura-imagen{
+
+        width: 21.375rem;
+        height: 12rem;
+    }
+
+    .formacionAcademica-alura-imagenLogo{
+
+        width: 9.375rem;
+        height: 7rem;
+    }
+
+    .formacionAcademica-alura-texto{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .formacionAcademica-alura-texto2{
+
+        font-size: 14px;
+    }
+ 
+}

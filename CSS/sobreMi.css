@@ -42,7 +42,7 @@
 
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 767px) {
 
     
 
@@ -63,4 +63,34 @@
         width: 335px;
         font-size: 14px;
     }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .sobreMi-contenido{
+
+        max-width: 991px;
+        min-width: 768px;
+        margin: 0 2rem;
+        
+        
+    }
+    
+    .sobreMi-contenido-titulo{
+
+        width: 95%;
+        font-size: 22px;
+    }
+
+    .sobreMi-contenido-parrafo{
+
+        
+        font-size: 14px;
+        margin-right: 2rem;
+        width: 95%;
+        
+        
+        
+    }
+ 
 }
