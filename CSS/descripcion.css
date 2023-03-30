@@ -46,13 +46,21 @@
     display: flex;
     gap: 2rem;
     align-items: start;
+   
 
+}
+
+.descripcion-enlaces-link:hover{
+
+    color: goldenrod;
+    text-decoration: underline;
 }
 
 .descripcion-enlaces-link{
 
     color: #464646 ;
     text-decoration: none;
+    transition: all 1s;
 
 }
 
@@ -101,10 +109,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-    .descripcion{
-       
-
-    }
+    
 
     .descripcion-contenido{ 
        width: 70%;

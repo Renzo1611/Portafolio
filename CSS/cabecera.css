@@ -47,9 +47,14 @@ justify-content: space-between;
 
 .menu-link{
     color: black;
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
+    transition: all 1s;  
+}
+
+.menu-link:hover{
+
+    color: goldenrod;
+    text-decoration: underline;
 }
 
 .menu-item{
