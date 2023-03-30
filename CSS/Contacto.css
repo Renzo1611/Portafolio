@@ -129,11 +129,13 @@
     background: #2A7AE4;
     color: #EAF2FD;
     border-color: #EAF2FD;
+    transition: 1s;
 }
 
 .botonEnviar:hover{
 
     cursor: pointer;
+    background: green;
 }
 
 

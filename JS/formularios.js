@@ -59,3 +59,4 @@ function toggleBotonEnviar() {
     botonEnviar.setAttribute('disabled', 'disabled');
   }
 }
+
